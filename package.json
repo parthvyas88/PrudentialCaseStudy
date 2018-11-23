@@ -1,0 +1,25 @@
+{
+  "name": "OpenWeathermap",
+  "version": "1.0.0",
+  "description": "Tests for Open WeatherMap application",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js"
+  },
+  "author": "Parth Vyas",
+  "license": "MIT",
+  "devDependencies": {
+    "chromedriver": "^2.43.3",
+    "selenium-webdriver": "^4.0.0-alpha.1",
+    "wdio-allure-reporter": "^0.6.3",
+    "wdio-cucumber-framework": "^2.2.8",
+    "wdio-dot-reporter": "0.0.10",
+    "wdio-selenium-standalone-service": "0.0.11"
+  },
+  "dependencies": {
+    "allure-commandline": "^2.5.0",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "wdio": "^3.0.0"
+  }
+}
